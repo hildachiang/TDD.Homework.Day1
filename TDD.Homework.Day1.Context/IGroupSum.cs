@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TDD.Homework.Day1.Context
 {
-    public class Class1
+    public interface IGroupSum
     {
+        List<object> GetData();
     }
 }
