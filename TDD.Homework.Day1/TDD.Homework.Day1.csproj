@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TDD.Homework.Day1.Context\TDD.Homework.Day1.Context.csproj">
+      <Project>{C4257C08-DA95-44D6-9394-74AA5A628A63}</Project>
+      <Name>TDD.Homework.Day1.Context</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
